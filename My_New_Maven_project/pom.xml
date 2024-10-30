@@ -1,21 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>My_New_Maven_project</groupId>
-  <artifactId>My_New_Maven_project</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <dependency>
-  <dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>3.17</version>
-</dependency>
-  </dependency>
-
-<dependency>
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>3.17</version>
-</dependency>
-</dependency>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>My_New_Maven_project</groupId>
+	<artifactId>My_New_Maven_project</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+  		<dependency>
+    		 <groupId>org.apache.poi</groupId>
+   			 <artifactId>poi</artifactId>
+   			 <version>3.17</version>
+		</dependency>
+ 
+		<dependency>
+    		<groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+        </dependency>
+    </dependencies>
 </project>
