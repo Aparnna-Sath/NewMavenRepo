@@ -8,7 +8,7 @@ public class AbstractContractor extends AbstractEmployee
 	
 	public void CalculateSalary()
 	{
-		int Salary=5*h;
+		int Salary=500*h;
 		System.out.println("Salary is :"+Salary);
 		
 	}
